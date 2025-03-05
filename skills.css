@@ -1,0 +1,36 @@
+/* General Progress Bar Styling */
+.progress {
+    height: 20px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    width: 0;
+    transition: width 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Specific Colors for Each Skill */
+.progress-bar.html { background-color: #E34F26; }
+.progress-bar.css { background-color: #1572B6; }
+.progress-bar.js { background-color: #F7DF1E; color: black; }
+.progress-bar.react { background-color: #61DAFB; color: black; }
+.progress-bar.cpp { background-color: #00599C; }
+.progress-bar.node { background-color: #339933; }
+.progress-bar.java { background-color: #007396; }
+.progress-bar.python { background-color: #3776AB; }
+.progress-bar.android { background-color: #3DDC84; color: black; }

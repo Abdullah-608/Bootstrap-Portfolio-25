@@ -1,0 +1,102 @@
+/* Root Variables */
+
+:root {
+    --primary-color: #FF651C;
+    --secondary-color: #4CAF50;
+    --dark-color: #373737;
+    --light-bg: #fbfbfb;
+    --dark-bg: #222;
+    --main-bg: rgba(254, 196, 72, 0.1); /* Define this for background */
+    --accent-gradient: linear-gradient(135deg, #FF6B6B, #FF8E53);
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    color: var(--dark-color);
+    background-color: var(--light-bg);
+    transition: all 0.3s ease;
+    line-height: 1.6;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body.dark-mode {
+    --primary-color: #FFA756; /* Slightly lighter orange for contrast */
+    --secondary-color: #6CE08A; /* Brighter green for contrast */
+    --dark-color: #fff; /* White text for dark background */
+    --light-bg: #222; /* Dark background */
+    --dark-bg: #fff; /* Light background (for elements like cards) */
+    --main-bg: #B8860B; /* Gold for highlights */
+    --accent-gradient: linear-gradient(135deg, #FF8E53, #FF6B6B);
+    background-color: var(--dark-bg);
+    color: var(--dark-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    color: #C8612F;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.text-dark {
+    color: var(--dark-color) !important;
+}
+.bg-gray {
+    background-color: var(--main-bg) !important; /* Use the correct variable */
+}
+.bg-dark {
+    background-color: var(--dark-color) !important;
+}
+/* Main Section */
+.main {
+    position: relative;
+    z-index: 1;
+}
+/* Education */
+.E-head {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin: 30px 0px;
+    line-height: 1.5;
+
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+}
+
+  
+  

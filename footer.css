@@ -1,0 +1,42 @@
+/* Footer */
+/* Social Media Icon Styles */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Increased spacing between icons */
+    margin-bottom: 15px;
+}
+
+.social-icon {
+    font-size: 2rem; /* Larger icon size */
+    color: var(--light-bg); /* Default color for all icons */
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+/* Assign specific colors to each social media platform */
+.social-icon.linkedin {
+    color: #0A66C2; /* LinkedIn Blue */
+}
+
+.social-icon.github {
+    color: #24292E; /* GitHub Black */
+}
+
+.social-icon.twitter {
+    color: #1DA1F2; /* Twitter Blue */
+}
+
+.social-icon.instagram {
+    color: #E1306C; /* Instagram Gradient Pink */
+}
+
+.social-icon.email {
+    color: #D44638; /* Email Red */
+}
+
+/* Hover Effect */
+.social-icon:hover {
+    color: var(--primary-color); /* Change to primary color on hover */
+    transform: scale(1.2); /* Slightly enlarge the icon */
+}

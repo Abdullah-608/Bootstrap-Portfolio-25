@@ -1,0 +1,106 @@
+/* Home Section */
+.home-section {
+    position: relative;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.home-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.home-section .home-intro h6 {
+    font-weight: 600;
+    color: var(--dark-color);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+
+.home-section .home-intro h1 {
+    font-size: 70px;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin: 0 0 35px;
+    line-height: 1;
+}
+
+.dev {
+    border-bottom: 2px solid #fec448;
+}
+
+.home-section .home-intro p {
+    font-size: 20px;
+    color: var(--dark-color);
+}
+
+.profile_pic {
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #000;
+    position: relative;
+    z-index: -2;
+}
+
+.anim-elements {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.anim-elements .anim-element {
+    position: absolute;
+    font-size: 30px;
+    color: #000;
+}
+
+.anim-elements .anim-element:nth-child(1) {
+    top: 10%;
+    left: 15%;
+    color: #E34f26;
+    animation: aniOne 13s infinite linear alternate;
+}
+
+.anim-elements .anim-element:nth-child(2) {
+    top: 20%;
+    left: 30%;
+    color: #1572b6;
+    animation: aniTwo 13s infinite linear alternate;
+}
+
+.anim-elements .anim-element:nth-child(3) {
+    top: 40%;
+    left: 50%;
+    color: #f7df1e;
+    animation: aniThree 13s infinite linear alternate;
+}
+
+.anim-elements .anim-element:nth-child(4) {
+    top: 50%;
+    left: 90%;
+    color: #61Dafb;
+    animation: aniOne 13s infinite linear alternate;
+}
+
+.anim-elements .anim-element:nth-child(5) {
+    top: 70%;
+    left: 50%;
+    color: #3c873a;
+    animation: aniTwo 13s infinite linear alternate;
+}
+
+.anim-elements .anim-element:nth-child(6) {
+    top: 80%;
+    left: 20%;
+    color: #b07219;
+    animation: aniThree 13s infinite linear alternate;
+}
