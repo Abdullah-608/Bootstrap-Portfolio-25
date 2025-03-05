@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -25,11 +29,12 @@
     <link rel="stylesheet" href="skills.css">
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="Popup.css">
-    
+
     <!-- Aos CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
 </head>
+
 <body>
     <!-- Navbar -->
     <header class="main-header">
@@ -41,9 +46,9 @@
                 </a>
 
                 <!-- Mobile Toggler -->
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" 
-                        data-bs-target="#navbar-collapse-toggle" aria-controls="navbar-collapse-toggle" 
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-collapse-toggle" aria-controls="navbar-collapse-toggle"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="fa-solid fa-bars-staggered"></i></span>
                 </button>
 
@@ -59,7 +64,7 @@
                         <li class="nav-item">
                             <a href="#skills" class="nav-link">Skills</a>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a href="#projects" class="nav-link">Projects</a>
                         </li>
@@ -91,7 +96,7 @@
     <!-- Main Content -->
     <main>
         <!-- Home Section -->
-        <section id="home" class="home-section bg-gray" >
+        <section id="home" class="home-section bg-gray">
             <div class="container">
                 <div class="anim-elements">
                     <div class="anim-element"><i class="fa-brands fa-html5"></i></div>
@@ -100,20 +105,22 @@
                     <div class="anim-element"><i class="fa-brands fa-react"></i></div>
                     <div class="anim-element"><i class="fa-brands fa-node"></i></div>
                     <div class="anim-element"><i class="fa-brands fa-java"></i></div>
-                    
+
                 </div>
-                <div class="row gy-5 align-items-center" >
+                <div class="row gy-5 align-items-center">
                     <div class="col-lg-6" data-aos="fade-right">
                         <div class="home-intro text-center text-lg-start">
                             <h6>Hi, My name is Abdullah Mansoor.</h6>
                             <h1>I am a <span class="dev" id="type-it"></span></h1>
                             <p>Based in Arfa Tower, Lahore.</p>
-                            <button class="colored-btn"id="openPopup">About Me</button>
+                            <button class="colored-btn" id="openPopup">About Me</button>
                             <div id="popup" class="popup">
                                 <div class="popup-content">
                                     <span class="close-btn" onclick="closePopup()">&times;</span>
                                     <h2>About Me</h2>
-                                    <p>I help business owners and busy web developers to design & develop creative websites that fit their vision and attract visitors to stay for ever. Technologies and tools that I use to create such awesome websites.</p>
+                                    <p>I help business owners and busy web developers to design & develop creative
+                                        websites that fit their vision and attract visitors to stay for ever.
+                                        Technologies and tools that I use to create such awesome websites.</p>
                                     <div class="tags">
                                         <span>#javascript</span>
                                         <span>#react.js</span>
@@ -159,178 +166,192 @@
         <!-- Education Section -->
         <section id="education" class="home-section bg-gray py-4 ">
             <div class="container">
-            <h2 class="text-center E-head"data-aos="fade-right">Education</h2>
-            <div class="table-responsive"data-aos="fade-up">
-                <table class="table table-striped table-dark table-bordered table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">Degree</th>
-                            <th scope="col">Institution</th>
-                            <th scope="col">Year</th>
-                            <th scope="col">Marks</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Matriculation</td>
-                            <td>Govt School</td>
-                            <td>2020</td>
-                            <td>1078/1100</td>
-                        </tr>
-                        <tr>
-                            <td>Intermediate</td>
-                            <td>GCU Lahore</td>
-                            <td>2022</td>
-                            <td>808/1100</td>
-                        </tr>
-                        <tr>
-                            <td>BS Computer Science</td>
-                            <td>Information Technology University</td>
-                            <td>2027</td>
-                            <td>CGPA: -4.0</td>
-                        </tr>
-                        <tr>
-                            <td>Certification in Designing</td>
-                            <td>DigiSkills.Pk</td>
-                            <td>2023</td>
-                            <td>89/100</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                <h2 class="text-center E-head" data-aos="fade-right">Education</h2>
+                <div class="table-responsive" data-aos="fade-up">
+                    <table class="table table-striped table-dark table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Degree</th>
+                                <th scope="col">Institution</th>
+                                <th scope="col">Year</th>
+                                <th scope="col">Marks</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Matriculation</td>
+                                <td>Govt School</td>
+                                <td>2020</td>
+                                <td>1078/1100</td>
+                            </tr>
+                            <tr>
+                                <td>Intermediate</td>
+                                <td>GCU Lahore</td>
+                                <td>2022</td>
+                                <td>808/1100</td>
+                            </tr>
+                            <tr>
+                                <td>BS Computer Science</td>
+                                <td>Information Technology University</td>
+                                <td>2027</td>
+                                <td>CGPA: -4.0</td>
+                            </tr>
+                            <tr>
+                                <td>Certification in Designing</td>
+                                <td>DigiSkills.Pk</td>
+                                <td>2023</td>
+                                <td>89/100</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
- <!-- Skills Section -->
- <section id="skills" class="home-section bg-gray py-4">
-    <div class="container">
-        <h2 class="text-center E-head"data-aos="fade-right">Skills</h2>
-        <div class="row"data-aos="flip-right">
-            <!-- HTML -->
-            <div class="col-md-6 mb-4">
-                <h5><i class="fa-brands fa-html5" style="color:#E34f26"></i></h5>
-                <div class="progress">
-                    <div class="progress-bar html" role="progressbar" data-percentage="90" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
-                </div>
-            </div>
+        <!-- Skills Section -->
+        <section id="skills" class="home-section bg-gray py-4">
+            <div class="container">
+                <h2 class="text-center E-head" data-aos="fade-right">Skills</h2>
+                <div class="row" data-aos="flip-right">
+                    <!-- HTML -->
+                    <div class="col-md-6 mb-4">
+                        <h5><i class="fa-brands fa-html5" style="color:#E34f26"></i></h5>
+                        <div class="progress">
+                            <div class="progress-bar html" role="progressbar" data-percentage="90" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
 
-            <!-- CSS -->
-            <div class="col-md-6 mb-4">
-                <h5><i class="fa-brands fa-css3-alt" style="color:#1572b6"></i></h5>
-                <div class="progress">
-                    <div class="progress-bar css" role="progressbar" data-percentage="85" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
-                </div>
-            </div>
+                    <!-- CSS -->
+                    <div class="col-md-6 mb-4">
+                        <h5><i class="fa-brands fa-css3-alt" style="color:#1572b6"></i></h5>
+                        <div class="progress">
+                            <div class="progress-bar css" role="progressbar" data-percentage="85" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                    </div>
 
-            <!-- JavaScript -->
-            <div class="col-md-6 mb-4">
-                <h5><i class="fa-brands fa-js" style="color:#f7df1e"></i></h5>
-                <div class="progress">
-                    <div class="progress-bar js" role="progressbar" data-percentage="80" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                </div>
-            </div>
+                    <!-- JavaScript -->
+                    <div class="col-md-6 mb-4">
+                        <h5><i class="fa-brands fa-js" style="color:#f7df1e"></i></h5>
+                        <div class="progress">
+                            <div class="progress-bar js" role="progressbar" data-percentage="80" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
 
-            <!-- React -->
-            <div class="col-md-6 mb-4">
-                <h5><i class="fa-brands fa-react" style="color:#61dafb"></i></h5>
-                <div class="progress">
-                    <div class="progress-bar react" role="progressbar" data-percentage="75" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-                </div>
-            </div>
+                    <!-- React -->
+                    <div class="col-md-6 mb-4">
+                        <h5><i class="fa-brands fa-react" style="color:#61dafb"></i></h5>
+                        <div class="progress">
+                            <div class="progress-bar react" role="progressbar" data-percentage="75" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </div>
 
-            <!-- C++ -->
-            <div class="col-md-6 mb-4">
-                <h5><i class="fa-brands fa-cuttlefish" style="color:#00599c"></i><i class="fa-solid fa-plus"  style="color:#00599c"></i></h5>
-                <div class="progress">
-                    <div class="progress-bar cpp" role="progressbar" data-percentage="85" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
-                </div>
-            </div>
+                    <!-- C++ -->
+                    <div class="col-md-6 mb-4">
+                        <h5><i class="fa-brands fa-cuttlefish" style="color:#00599c"></i><i class="fa-solid fa-plus"
+                                style="color:#00599c"></i></h5>
+                        <div class="progress">
+                            <div class="progress-bar cpp" role="progressbar" data-percentage="85" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                    </div>
 
-            <!-- Node.js -->
-            <div class="col-md-6 mb-4">
-                <h5><i class="fa-brands fa-node-js"  style="color:#339933"></i></h5>
-                <div class="progress">
-                    <div class="progress-bar node" role="progressbar" data-percentage="80" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                </div>
-            </div>
+                    <!-- Node.js -->
+                    <div class="col-md-6 mb-4">
+                        <h5><i class="fa-brands fa-node-js" style="color:#339933"></i></h5>
+                        <div class="progress">
+                            <div class="progress-bar node" role="progressbar" data-percentage="80" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
 
-            <!-- Java -->
-            <div class="col-md-6 mb-4">
-                <h5><i class="fa-brands fa-java"  style="color:#00599c"></i></h5>
-                <div class="progress">
-                    <div class="progress-bar java" role="progressbar" data-percentage="75" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-                </div>
-            </div>
+                    <!-- Java -->
+                    <div class="col-md-6 mb-4">
+                        <h5><i class="fa-brands fa-java" style="color:#00599c"></i></h5>
+                        <div class="progress">
+                            <div class="progress-bar java" role="progressbar" data-percentage="75" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </div>
 
-            <!-- Python -->
-            <div class="col-md-6 mb-4">
-                <h5><i class="fa-brands fa-python"  style="color:#3776ab"></i></h5>
-                <div class="progress">
-                    <div class="progress-bar python" role="progressbar" data-percentage="80" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                </div>
-            </div>
+                    <!-- Python -->
+                    <div class="col-md-6 mb-4">
+                        <h5><i class="fa-brands fa-python" style="color:#3776ab"></i></h5>
+                        <div class="progress">
+                            <div class="progress-bar python" role="progressbar" data-percentage="80" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
 
-            <!-- App Development -->
-            <div class="col-md-6 mb-4">
-                <h5><i class="fa-brands fa-android"  style="color:#3ddc84"></i></h5>
-                <div class="progress">
-                    <div class="progress-bar android" role="progressbar" data-percentage="70" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    <!-- App Development -->
+                    <div class="col-md-6 mb-4">
+                        <h5><i class="fa-brands fa-android" style="color:#3ddc84"></i></h5>
+                        <div class="progress">
+                            <div class="progress-bar android" role="progressbar" data-percentage="70" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
         <!-- project -->
         <section id="projects" class="home-section bg-gray py-4">
             <div class="container">
-                <h2 class="text-center E-head"data-aos="fade-right">Projects</h2>
+                <h2 class="text-center E-head" data-aos="fade-right">Projects</h2>
                 <div class="row">
                     <!-- Project 1 -->
-                    <div class=" col-md-6 col-12 mb-4"data-aos="flip-right">
+                    <div class=" col-md-6 col-12 mb-4" data-aos="flip-right">
                         <a href="https://github.com/Abdullah-608" target="_blank" class="project-card-link">
                             <div class="card h-100 shadow-sm project-card">
                                 <img src="Project-1.png" class="card-img-top img-fluid" alt="Project 1">
                                 <div class="card-body">
                                     <h5 class="card-title">Css Day</h5>
-                                    <p class="card-text">A multi page website which tells you about motivational speakers and allow you to buy tickets for there seminars</p>
+                                    <p class="card-text">A multi page website which tells you about motivational
+                                        speakers and allow you to buy tickets for there seminars</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-        
+
                     <!-- Project 2 -->
-                    <div class=" col-md-6 col-12 mb-4"data-aos="flip-left">
+                    <div class=" col-md-6 col-12 mb-4" data-aos="flip-left">
                         <a href="https://github.com/Abdullah-608" target="_blank" class="project-card-link">
                             <div class="card h-100 shadow-sm project-card">
                                 <img src="Project-2.png" class="card-img-top img-fluid" alt="Project 2">
                                 <div class="card-body">
                                     <h5 class="card-title">Temple</h5>
-                                    <p class="card-text">An Animated landing page with continues sukana petals freely falling and gsap animations</p>
+                                    <p class="card-text">An Animated landing page with continues sukana petals freely
+                                        falling and gsap animations</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-        
+
                     <!-- Project 3 -->
-                    <div class=" col-md-6 col-12 mb-4"data-aos="flip-right">
+                    <div class=" col-md-6 col-12 mb-4" data-aos="flip-right">
                         <a href="https://github.com/Abdullah-608" target="_blank" class="project-card-link">
                             <div class="card h-100 shadow-sm project-card">
                                 <img src="Project-3.png" class="card-img-top img-fluid" alt="Project 3">
                                 <div class="card-body">
                                     <h5 class="card-title">Space WebPage</h5>
-                                    <p class="card-text">A Space WebPage with gsap animation which horizontal scroll views tells you about space and its beauty.</p>
+                                    <p class="card-text">A Space WebPage with gsap animation which horizontal scroll
+                                        views tells you about space and its beauty.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-        
+
                     <!-- Project 4 -->
-                    <div class="col-md-6 col-12 mb-4"data-aos="flip-left">
+                    <div class="col-md-6 col-12 mb-4" data-aos="flip-left">
                         <a href="https://github.com/Abdullah-608" target="_blank" class="project-card-link">
                             <div class="card h-100 shadow-sm project-card">
                                 <img src="Project-4.png" class="card-img-top img-fluid" alt="Project 4">
                                 <div class="card-body">
                                     <h5 class="card-title">Recipes</h5>
-                                    <p class="card-text">A Webpage which Generates random recipes of food designed with the help of flexbox</p>
+                                    <p class="card-text">A Webpage which Generates random recipes of food designed with
+                                        the help of flexbox</p>
                                 </div>
                             </div>
                         </a>
@@ -339,79 +360,79 @@
             </div>
         </section>
         <!-- Contact Section -->
-        <section id="contact" class="home-section bg-gray py-4"data-aos="fade-up">
+        <section id="contact" class="home-section bg-gray py-4" data-aos="fade-up">
             <div class="container">
-            <h2 class="text-center E-head">Contact</h2>
-            <form id="contact-form" class="row g-3">
-                <div class="col-md-6">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" required>
-                </div>
-                <div class="col-12">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="5" required></textarea>
-                </div>
-                <div class="col-12 text-center">
-                    <button type="submit" class="colored-btn">Submit</button>
-                </div>
-            </form>
-        </div>
+                <h2 class="text-center E-head">Contact</h2>
+                <form id="contact-form" class="row g-3">
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="colored-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 
     <!-- Footer Section -->
-<!-- Footer Section -->
-<footer class="footer bg-gray text-dark py-4"data-aos="fade-left">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6 text-center">
-                <!-- Social Media Icons -->
-                <h5 class="mb-3">Connect with Me</h5>
-                <div class="social-icons">
-                    <!-- LinkedIn -->
-                    <a href="https://www.linkedin.com/in/" target="_blank" class="social-icon linkedin">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <!-- GitHub -->
-                    <a href="https://github.com/Abdullah-608" target="_blank" class="social-icon github">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <!-- Twitter -->
-                    <a href="https://twitter.com/" target="_blank" class="social-icon twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <!-- Instagram -->
-                    <a href="https://www.instagram.com/abdul.ah786/" target="_blank" class="social-icon instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <!-- Email -->
-                    <a href="mailto:abdullahmansoor608@gmail.com" class="social-icon email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
+    <footer class="footer bg-gray text-dark py-4" data-aos="fade-left">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <!-- Social Media Icons -->
+                    <h5 class="mb-3">Connect with Me</h5>
+                    <div class="social-icons">
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/" target="_blank" class="social-icon linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <!-- GitHub -->
+                        <a href="https://github.com/Abdullah-608" target="_blank" class="social-icon github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/" target="_blank" class="social-icon twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/abdul.ah786/" target="_blank" class="social-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <!-- Email -->
+                        <a href="mailto:abdullahmansoor608@gmail.com" class="social-icon email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <p class="mt-3 mb-0">&copy; 2025 Abdullah Mansoor. All rights reserved.</p>
                 </div>
-                <p class="mt-3 mb-0">&copy; 2025 Abdullah Mansoor. All rights reserved.</p>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
     <!-- typedjs -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <!-- Aos JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    
-    
+
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 
     <!-- Theme Toggle Script -->
-     <script src="script.js"></script>
-   
+    <script src="script.js"></script>
+
 </body>
+
 </html>
